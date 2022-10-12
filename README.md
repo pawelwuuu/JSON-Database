@@ -8,6 +8,8 @@ To start server open a terminal in directory containing jar file of it and use t
 java -jar [name of jar file]
 ```
 
+To set up a server that is visible in public network, you need to do port fowarding in your router admin panel. Add rule for fowarding of port 38500 to your local machine ip. Also you can use hamachi application for that purpose.
+
 Once server is running it will inform you about incoming request as well as responses to that requests.
 
 ### Client
