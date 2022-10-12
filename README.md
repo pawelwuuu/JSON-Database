@@ -63,4 +63,4 @@ By -ip parameter you can specify address of server, but there is also other way 
 
 ## Download
 - [Client](https://github.com/pawelwuuu/Json-Database/releases/download/first-release/JSON-Database.Client.jar)
-- [Server}(https://github.com/pawelwuuu/Json-Database/releases/download/first-release/JSON-Database.Server.jar)
+- [Server](https://github.com/pawelwuuu/Json-Database/releases/download/first-release/JSON-Database.Server.jar)
