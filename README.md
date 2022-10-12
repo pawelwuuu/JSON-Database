@@ -29,7 +29,7 @@ arg is an option that you have to specify if you want to send request to the ser
 java -jar client.jar  -ip 127.0.0.1 -t set -k Name -v Paul
 ```
 ```bash
-java -jar client.jar  -in request.json
+java -jar client.jar  -ip 127.0.0.1 -in request.json
 ```
 Value can be whatever you want, numeric value or just a text. There are three types of operations you can perform: set, get, delete. Set sets an key-value data in database, delete removes some data by specified key and get prints requested data. There is a possibility to load json from a file by an -in parameter, file should be in the same folder as client jar file. File must containing json format and should have json extension. Example of file containing request.
 ```code
@@ -61,4 +61,5 @@ java -jar client.jar -t set -f person,name -v Anne -ip 127.0.0.1
 Will set value of name field to anne.<br><br>
 By -ip parameter you can specify address of server, but there is also other way to specify it. Create text file named ip.txt with ip in it, that you want to connect to. Ip file must be placed in same folder as client jar. Ip file gives an option to skip the -ip parameter.
 
-##Download
+## Download
+
