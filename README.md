@@ -62,7 +62,8 @@ java -jar client.jar -t set -f person,name -v Anne -ip 127.0.0.1
 ```
 Will set value of name field to anne.<br><br>
 By -ip parameter you can specify address of server, but there is also other way to specify it. Create text file named ip.txt with ip in it, that you want to connect to. Ip file must be placed in same folder as client jar. Ip file gives an option to skip the -ip parameter.
-
+## License
+Programme is released under GNU GPL license.
 ## Download
 - [Client](https://github.com/pawelwuuu/Json-Database/releases/download/first-release/JSON-Database.Client.jar)
 - [Server](https://github.com/pawelwuuu/Json-Database/releases/download/first-release/JSON-Database.Server.jar)
